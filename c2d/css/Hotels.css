@@ -1,0 +1,83 @@
+﻿body {
+}
+
+/*/////////////////Hotel Profile////////////////*/
+.PriceincludesTaxes {
+    color: blue;
+}
+
+@media only screen and (max-width: 580px) {
+    .MobileBody {
+        padding-right: 1px;
+        padding-left: 1px;
+    }
+
+    .MobileTable {
+        padding-right: 1px;
+        padding-left: 1px;
+        font-size: 10px;
+    }
+
+    .PriceincludesTaxes {
+        color: blue;
+    }
+}
+
+.box {
+    background-color: #f0ad4e;
+    position: absolute;
+    left: -25px;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    top: 8px;
+    width: auto;
+    height: auto;
+    padding: 12px 12px;
+}
+
+.imgClass {
+    height: 100px;
+    padding: 5px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    empty-cells: hide;
+    padding: 2px;
+}
+
+td, th {
+    border: 1px;
+    text-align: left;
+    padding: 2px;
+}
+
+.MyMainImg {
+    height: 400px;
+    width: 100%;
+}
+
+.imgbordaer {
+    border: 1px solid black;
+}
+
+.OrderHistory_RowSeparator {
+    margin: 0px 0px 20px 0px;
+}
+
+.input[type=checkbox], input[type=radio] {
+    margin: 10px 0px 20px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.xc {
+    border: 1px solid black;
+}
+
+

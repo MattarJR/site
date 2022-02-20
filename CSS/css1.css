@@ -1,0 +1,1324 @@
+﻿
+/*///////////////////////////////////////Loader  / Spinner //////////////////////////////////////////////////*/
+
+/*Loader*/
+.myloader {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.9);
+    position: fixed;
+    z-index: 999999999999999;
+}
+
+/* Spinner*/
+.spinner {
+    width: 80px;
+    height: 80px;
+    background-color: #ffd800;
+    /*background-image:url(../imge/C2DNewLogo.jpg);*/
+    margin: 250px auto;
+    -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+    animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+    0% {
+        -webkit-transform: perspective(120px);
+    }
+
+    50% {
+        -webkit-transform: perspective(120px) rotateY(180deg);
+    }
+
+    100% {
+        -webkit-transform: perspective(120px) rotateY(180deg) rotateX(180deg);
+    }
+}
+
+@keyframes sk-rotateplane {
+    0% {
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    }
+
+    50% {
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    }
+
+    100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    }
+}
+
+/*///////////////////////////////////////Header//////////////////////////////////////////////////*/
+
+/** Header**/
+.header {
+    /*#ffebde*/
+    background-color: white;
+    border: none;
+    z-index: 999;
+}
+
+/*///////////////////////////////////////Nav Bar//////////////////////////////////////////////////*/
+
+/* Start Nav Bar*/
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
+    .navbar-default .navbar-nav > li > a:hover {
+        color: #ec971f;
+    }
+
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #ec971f;
+    }
+
+.navbar-default .navbar-right {
+    height: 50px;
+    margin-top: 5px;
+}
+
+.navbar-default .navbar-header {
+    height: 60px;
+}
+
+.navbar-default .MyWhiteClass {
+    background-color: white;
+}
+/* Icon Bar*/
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+/* End Nav Bar*/
+
+/*///////////////////////////////////////Body//////////////////////////////////////////////////*/
+
+/* Start Body*/
+.body {
+    background-color: whitesmoke;
+}
+
+hr {
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+.my-hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+/*  Start Check Box */
+.ChkBoxcontainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+    /* Hide the browser's default checkbox */
+    .ChkBoxcontainer input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: solid black;
+}
+/* On mouse-over, add a grey background color */
+.ChkBoxcontainer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+/* When the checkbox is checked, add a blue background */
+.ChkBoxcontainer input:checked ~ .checkmark {
+    background-color: white;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* Show the checkmark when checked */
+.ChkBoxcontainer input:checked ~ .checkmark:after {
+    display: block;
+}
+/* Style the checkmark/indicator */
+.ChkBoxcontainer .checkmark:after {
+    left: 8px;
+    top: 4px;
+    width: 5px;
+    height: 11px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.MyCheckBox {
+    font-size: small;
+}
+/*  End Check Box */
+
+/* Top page Btn*/
+.myTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+/*End Body*/
+
+/*///////////////////////////////////////HotelProfile//////////////////////////////////////////////////*/
+
+/*  Start HotelProfile Page */
+.RepeaterBorder {
+    border-radius: 1px;
+    padding: 10px;
+    background-color: white;
+}
+
+.RepeaterBackGround {
+    background-color: whitesmoke;
+    padding-left: 0px;
+}
+
+.M-Header-btn {
+    margin-top: -20px;
+    padding-left: 0%;
+    padding-right: 0%;
+    text-align: center;
+}
+
+    .M-Header-btn .M-btn {
+        margin-top: 5px;
+        margin-bottom: -10px;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+        .M-Header-btn .M-btn > input {
+            border-radius: 0px;
+        }
+
+/* Summary reservations model*/
+.Summary-reservations {
+}
+
+    .Summary-reservations .Details {
+        border-color: #e9f0fa;
+        border: 1px solid #cce1ff;
+        margin: -10px -10px -11px;
+        padding: 10px 10px 8px;
+    }
+
+    .Summary-reservations .Img {
+    }
+
+    .Summary-reservations .hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+    }
+
+    .Summary-reservations .Info {
+        padding-top: 5px;
+    }
+
+    .Summary-reservations .Details > h4 {
+        background-color: #e9f0fa;
+        border-color: #e9f0fa;
+        border: 1px solid #cce1ff;
+        margin: -10px -10px -11px;
+        padding: 10px 10px 8px;
+    }
+
+    .Summary-reservations .AskaQuestion {
+        border-color: #e9f0fa;
+        border: 1px solid #cce1ff;
+        margin: -10px -10px -11px;
+        padding: 10px 10px 8px;
+    }
+
+        .Summary-reservations .AskaQuestion > h4 {
+            background-color: #e9f0fa;
+            border-color: #e9f0fa;
+            border: 1px solid #cce1ff;
+            margin: -10px -10px -11px;
+            padding: 10px 10px 8px;
+        }
+/*///////*/
+@media print {
+    .Summary-reservations {
+        background-color: coral !important;
+    }
+
+        .Summary-reservations .Details {
+            border-color: #e9f0fa;
+            border: 1px solid #cce1ff;
+            margin: -10px -10px -11px;
+            padding: 10px 10px 8px;
+        }
+
+        .Summary-reservations .Img {
+        }
+
+        .Summary-reservations .hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 0;
+        }
+
+        .Summary-reservations .Info {
+            padding-top: 5px;
+        }
+
+        .Summary-reservations .Details > h4 {
+            background-color: #e9f0fa;
+            border-color: #e9f0fa;
+            border: 1px solid #cce1ff;
+            margin: -10px -10px -11px;
+            padding: 10px 10px 8px;
+        }
+
+        .Summary-reservations .AskaQuestion {
+            border-color: #e9f0fa;
+            border: 1px solid #cce1ff;
+            margin: -10px -10px -11px;
+            padding: 10px 10px 8px;
+        }
+
+            .Summary-reservations .AskaQuestion > h4 {
+                background-color: #e9f0fa;
+                border-color: #e9f0fa;
+                border: 1px solid #cce1ff;
+                margin: -10px -10px -11px;
+                padding: 10px 10px 8px;
+            }
+}
+
+
+/* End HotelProfile Page */
+
+/*///////////////////////////////////////hotelSearch//////////////////////////////////////////////////*/
+
+/*  Start Search Page */
+.HotelRepeaterBorder {
+    background-color: gainsboro;
+    margin-bottom: 25px;
+}
+/*  Model For Room / Adults / chiled  In Mobile*/
+.modal-dialog {
+    position: absolute;
+    top: 50% !important;
+    transform: translate(0, -50%) !important;
+    -ms-transform: translate(0, -50%) !important;
+    -webkit-transform: translate(0, -50%) !important;
+    margin: auto 5%;
+    width: 90%;
+    height: 80%;
+}
+
+.myRoomModel {
+    color: black;
+}
+
+    .myRoomModel .title {
+        margin-top: 5px;
+    }
+
+    .myRoomModel .Room {
+        margin-top: -5px;
+        margin-bottom: -10px;
+    }
+
+    .myRoomModel .Adult {
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+
+    .myRoomModel .Children {
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+
+    .myRoomModel .Number {
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    .myRoomModel .Decres {
+        border-radius: 10px 0px 0px 10px;
+        font-size: 20px;
+    }
+
+    .myRoomModel .Incres {
+        border-radius: 0px 10px 10px 0px;
+        font-size: large;
+    }
+
+/* Style For Search Room */
+.popover {
+    width: 550px;
+    max-height: none;
+    max-width: none;
+}
+
+/*Star*/
+.checked {
+    color: orange;
+}
+/* //////box reviews/////////*/
+.review-score-box {
+    background: #003580;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    vertical-align: baseline;
+    border-radius: 6px 6px 6px 0;
+    height: 32px;
+    width: 32px
+}
+
+.reviewsum {
+    padding-left: 0px;
+}
+/* End Search Page */
+/*///////////////////////////////////////Upload Image Style//////////////////////////////////////////////////*/
+.comp-logo {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    max-height: 100px;
+    background-color: #efefef;
+    margin-top: 15px;
+    overflow-y: hidden;
+}
+
+.up-btn:hover {
+    background-color: #0b4d73;
+}
+
+.up-btn {
+    width: 100%;
+    height: 33px;
+    background: #0b669a;
+    color: #fff;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    transition: all ease 01s;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 33px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.comp-logo {
+    background-size: cover;
+    background-position: center;
+}
+
+/*///////////////////////////////////////Footer//////////////////////////////////////////////////*/
+
+/*Footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    color: white;
+    background-color: #ffebde;
+    text-align: left;
+}
+
+
+
+/*///////////////////////////FacilitiesAndServices/////////////////////////////////*/
+
+.Border {
+    padding: 5px;
+    border: 2px solid aliceblue;
+    margin-top: 25px;
+}
+
+.rightSide {
+    text-align: right;
+}
+
+.leftSide {
+    text-align: left;
+}
+
+.RoomAmentitesbox {
+    height: 35px;
+    background-color: aliceblue;
+    padding: 8px;
+}
+
+.RoomsController {
+    background-color: aliceblue;
+    padding-top: 10px;
+    text-align: left;
+}
+
+.Hiden {
+}
+
+.ClearFloat {
+    clear: both;
+}
+
+
+
+/*/////////////////////////////////////////////////GustRevivews///////////////////////*/
+
+.progress {
+    height: 10px;
+    padding: 0px;
+}
+
+.ReviewRepeater {
+    background-color: whitesmoke;
+    margin-bottom: 30px;
+    padding-top: 30px
+}
+
+/*/////////////////////////////////////////////////Hotel Home///////////////////////*/
+/* Image text*/
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*///////////////////////////////////////////////// Shopping Home///////////////////////*/
+.textLab {
+    display: block;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.BGimage {
+    background-image: url("../imge/RiyadhBG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner {
+    height: 250px;
+    background-color: transparent;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 100px;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .BGimage {
+        background-image: url("../imge/RiyadhBG.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: -webkit-fill-available;
+    }
+}
+
+.page-content {
+    padding-left: 0%;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.Img {
+    height: 250px;
+    width: 100%;
+}
+
+.ImgRepeater {
+    padding: 10px;
+    height: 220px;
+    width: -webkit-fill-available;
+}
+
+.Repeater-Box {
+    padding-bottom: 40px;
+}
+
+.WeeklyOffersRepeater-Box {
+    padding-bottom: 20px;
+}
+
+.RepeaterBody {
+    background-color: #ffebde;
+    height: 350px;
+}
+
+.WeeklyOffersRepeaterBody {
+    background-color: white;
+    height: 300px;
+    box-sizing: border-box;
+    box-shadow: 0 0 1px rgba(0,0,0,0.2);
+}
+
+.Repeater-heading {
+    height: 240px;
+    background-color: #ffebde;
+}
+
+.WeeklyOffersRepeater-heading {
+    height: 240px;
+    background-color: white;
+}
+
+.Repeater-body {
+    height: 80px;
+    padding-top: 5px;
+    background-color: #ffebde;
+}
+
+.WeeklyOffersRepeater-body {
+    height: 40px;
+    padding-top: 5px;
+    background-color: white;
+}
+
+.Repeater-footer {
+    height: 50px;
+    padding: 10px;
+    background-color: goldenrod;
+}
+
+.RepeaterBody a {
+    text-decoration: none !important;
+    color: chocolate;
+}
+
+    .RepeaterBody a:hover {
+        color: crimson;
+    }
+
+
+
+/*///////////////////////////////////////////////// Header Shopping ///////////////////////*/
+
+@media (min-width: 768px) {
+    .navbar-left {
+        float: left !important;
+    }
+
+    .panel-info > .panel-heading {
+        color: black;
+        background-color: #ffebde;
+        border-color: #daa520;
+    }
+}
+
+.panel-info > .panel-heading {
+    color: black;
+    background-color: #ffebde;
+    border-color: #daa520;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: 0px;
+}
+
+.form-control {
+    border: 1px solid #daa520;
+}
+
+.MyBorder {
+    border: 1px solid #daa520;
+}
+
+.serachboxtxt {
+    border-right: 0px;
+    border-radius: 0px;
+}
+
+.serachboxbtn {
+    border-left: 0px;
+    border-radius: 0px;
+    width: 10%;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #337ab7;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #337ab7;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    padding-top: 25px;
+    color: #743a00;
+    padding-right: 0;
+    font-size: 15px
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+        color: #ff901a;
+        /*#743a00
+        #ff901a*/
+    }
+
+.FontMedi {
+    font-size: 20px;
+    color: darkorange;
+}
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+    width: 0px;
+}
+
+    .sidenav ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        background: #fff;
+        height: 100%;
+        overflow: auto;
+        width: 270px;
+    }
+
+    .sidenav li {
+        display: list-item;
+        padding: 12px 15px 15px 25px;
+        line-height: 1.1;
+        border-bottom: 1px solid #d8d8d8;
+        cursor: pointer;
+    }
+
+.arrow_right {
+    width: 10px;
+    float: right;
+}
+
+.Logo_right {
+    width: 200px;
+    height: 50px;
+}
+
+.Logo_right2 {
+    width: 150px;
+    height: 60px;
+}
+
+.sidena a {
+    padding: 5px 8px 15px 8px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 15px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    float: left;
+    margin-top: 0px;
+}
+
+.sidenav a:hover {
+    color: #ff6a00;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.Headerbutton {
+    float: none;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+/* Search*/
+
+.SearchD {
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 15px;
+}
+
+.MenuD {
+    padding-right: 0%;
+    padding-left: 0%;
+    padding-top: 0px;
+}
+
+.Mya {
+    margin-right: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    line-height: 1.1;
+    font-family: Roboto,DroidArabicKufi;
+}
+
+.HeaderMenuD {
+    float: right;
+    padding-top: 25px;
+    margin-right: 15px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #363636;
+    font-weight: 500;
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    line-height: 1.1;
+    font-family: Roboto,DroidArabicKufi;
+    height: auto;
+    background-color: transparent;
+}
+
+.box {
+    border-radius: 10px;
+    background: #c2c6be;
+    padding: 20px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+    vertical-align: bottom;
+}
+
+    .box span {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        vertical-align: bottom;
+    }
+
+.Links {
+    margin-right: 10px;
+}
+
+.LiLinks {
+    padding-bottom: 10px;
+    vertical-align: bottom;
+}
+
+.MenuMLi {
+    background-color: sandybrown;
+}
+
+    .MenuMLi a {
+        color: black;
+    }
+
+        .MenuMLi a:hover {
+            color: whitesmoke;
+        }
+
+.CategoryD {
+    background-color: goldenrod;
+    height: 55px;
+    color: aliceblue;
+}
+
+@media (max-width: 1200px) {
+    .MenuD {
+    }
+
+    .CategoryD {
+        background-color: transparent;
+    }
+}
+
+.menuTrigger {
+    text-transform: uppercase;
+    padding: 0 15px;
+    height: 60px;
+    font-size: 1.16666rem;
+    -webkit-letter-spacing: 0.2px;
+    -moz-letter-spacing: 0.2px;
+    -ms-letter-spacing: 0.2px;
+    letter-spacing: 0.2px;
+    font-weight: 700;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: inherit;
+    border: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+    font-size: 13px;
+}
+
+    .menuTrigger:hover {
+        color: red;
+    }
+
+    .menuTrigger:active {
+        color: red;
+        border: 1px;
+    }
+
+.BtnHeaderMenuForShopping {
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+/*/////////////////////////////////////////////////  Shppoing Search ///////////////////////*/
+.txtTitle {
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0px 0px 0px transparent;
+    cursor: context-menu;
+    resize: none;
+    color: black;
+}
+
+    .txtTitle:focus {
+        box-shadow: 0px 0px 0px transparent;
+    }
+
+/*///////////////////////////////////////////////// Product Profile///////////////////////*/
+.imgProduct {
+    padding: 10px;
+    height: 400px;
+    max-width: 100%;
+}
+/*///////////////////////////////////// About //////////////////////*/
+.about_content {
+    max-width: 1110px;
+    min-width: 620px;
+    margin: 0 auto;
+    clear: both;
+    padding: 0px 50px 20px 50px;
+}
+
+.static_content {
+    padding: 8px 16px;
+}
+
+.static_content-col25 {
+    float: left;
+    width: 28%;
+    margin-bottom: 30px;
+}
+
+.static_content-col75 {
+    float: left;
+    width: 71%;
+    padding-left: 1%;
+    margin-bottom: 30px;
+}
+
+.static_content-mapbackground {
+}
+
+.flexible_layout_content {
+    background-image: url(https://www.solidbackgrounds.com/images/1920x1080/1920x1080-oxford-blue-solid-color-background.jpg);
+    max-width: 1300px;
+    min-width: 50px;
+    margin: 0 auto;
+    clear: both;
+    padding: 50px 50px 20px 50px;
+}
+
+.static_content {
+    padding: 8px 16px;
+}
+
+.static_content-section {
+    color: black;
+    margin: 50px 0;
+}
+/*///////////////////////////////////// Footer Booking //////////////////////*/
+.footer-top-menu {
+    background-color: #042147;
+    font-size: 13px;
+    padding: 0;
+}
+
+.footer-top-partners {
+    border-bottom: 1px solid #537bb4;
+}
+
+.footerconstraint-inner {
+    max-width: 1094px;
+    min-width: 620px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.footer-top-partner-text {
+    color: #fff;
+    line-height: 2;
+    margin: 0;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.footer-top-partners .footer-top-button {
+    border: 1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    font-weight: normal;
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+.footer-top-partner-buttons a {
+    margin: 0 10px;
+}
+
+.footerconstraint-inner {
+    max-width: 1094px;
+    min-width: 620px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.footerconstraint-inner {
+    max-width: 1094px;
+    min-width: 620px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+.footer-navigation-links-wrapper {
+    padding: 16px 0;
+}
+
+.footer-navigation-links {
+    width: 100%;
+    float: left;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.footer-navigation-links-wrapper {
+    padding: 16px 0;
+}
+
+footer-offices-copy {
+    border-top: 1px solid #e9f0fa;
+    border-bottom: 1px solid #e9f0fa;
+    padding: 11px 8px 11px 8px;
+    margin-bottom: -8px;
+    font-size: 12px;
+}
+
+.extranet_link_container {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 3em;
+    padding: 0;
+    text-align: center;
+}
+
+.footerconstraint .footercopyright {
+    font-size: 80%;
+    border-top: 1px solid #e9f0fa;
+    margin-top: 1em;
+}
+
+.footer-wrapper .whitebar {
+    border-top: none !important;
+}
+
+.footer__priceline {
+    width: 100%;
+    min-height: 90px;
+    color: #838383;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 0;
+}
+
+.footer__priceline__title {
+    margin: 0;
+}
+
+.footer__priceline__list {
+    padding: 10px 0 0;
+}
+
+.footer-top-partner-text {
+    color: #fff;
+    line-height: 2;
+    margin: 0;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.footer-top-links-list {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-top-link {
+    float: left;
+    list-style-type: none;
+    border-right: 1px solid #003580;
+}
+
+.footer-navigation-links-column {
+    margin: 0;
+    width: 20%;
+    float: left;
+    padding: 0 10px 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.footer-top-link input, .footer-top-link span {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 15px 10px;
+    font-size: 13px;
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1em;
+    height: 1em;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.footer-top-link a, .footer-top-link input, .footer-top-link span {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 15px 10px;
+    font-size: 13px;
+    background: 0;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1em;
+    height: 1em;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.footer-offices-copy {
+    border-top: 1px solid #e9f0fa;
+    border-bottom: 1px solid #e9f0fa;
+    padding: 11px 8px 11px 8px;
+    margin-bottom: -8px;
+    font-size: 12px;
+}
+
+.extranet_link_container {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 3em;
+    padding: 0;
+    text-align: center;
+}
+
+.footerconstraint .footercopyright {
+    font-size: 80%;
+    border-top: 1px solid #e9f0fa;
+    margin-top: 1em;
+}
+
+footerconstraint .footercopyright .copyright_text {
+    clear: left;
+}
+
+.footerconstraint .footercopyright .copyright_text {
+    padding: 1em 0;
+    float: left;
+}
+
+.footer__priceline__list ul {
+    display: inline-block;
+}
+
+.footer__priceline__list li {
+    list-style: none;
+    padding: 0 20px;
+    display: inline-block;
+    padding-bottom: 0;
+}
+
+
+
+/* Hotel Home */
+.RatingBox {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    background: #f76161;
+    border: 2px solid #666;
+    color: black;
+    font: 16px Arial, sans-serif;
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.fsslider {
+    position: relative;
+    min-width: 150px;
+    height: 24px;
+    display: inline-block;
+    width: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #000;
+}
+
+.fsslider {
+    text-align: center;
+    line-height: 24px;
+    font-size: 11px;
+    font-family: "Lucida Grande", "Trebuchet MS", sans-serif;
+}
+
+    .fsslider > * {
+        position: absolute;
+        top: 50%;
+        cursor: pointer;
+    }
+
+    .fsslider > .fsfull-value, .fsslider > .fssel-value {
+        margin-top: -1px;
+        height: 2px;
+        left: 0;
+        right: 0;
+    }
+
+    .fsslider > .fsfull-value {
+        width: 100%;
+        background: #d8d8d8;
+    }
+
+    .fsslider > .fssel-left, .fsslider > .fssel-right, .fsslider > .fscaret {
+        background: #fff;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+        height: 100%;
+        min-width: 30px;
+        top: 0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .fsslider > .fssel-value {
+        background: #2534e4;
+        height: 4px;
+        margin-top: -2px;
+        right: 50%;
+    }
+
+
+    .fsslider.fsdisabled {
+        color: #c8c8c8;
+    }
+
+        .fsslider.fsdisabled > .fssel-value {
+            background: #c8c8c8;
+        }
+
+
+/******************/
+.MaxLeng3 {
+    display: inline-block;
+    width: 3em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

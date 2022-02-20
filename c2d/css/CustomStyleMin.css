@@ -1,0 +1,296 @@
+.myloader{width:100%;height:100%;background-color:rgba(0,0,0,.9);position:fixed;z-index:999999999999999}.spinner{width:80px;height:80px;background-color:#ffd800;margin:250px auto;-webkit-animation:sk-rotateplane 1.2s infinite ease-in-out;animation:sk-rotateplane 1.2s infinite ease-in-out}@-webkit-keyframes sk-rotateplane{0%{-webkit-transform:perspective(120px)}50%{-webkit-transform:perspective(120px) rotateY(180deg)}100%{-webkit-transform:perspective(120px) rotateY(180deg) rotateX(180deg)}}@keyframes sk-rotateplane{0%{transform:perspective(120px) rotateX(0) rotateY(0);-webkit-transform:perspective(120px) rotateX(0) rotateY(0)}50%{transform:perspective(120px) rotateX(-180.1deg) rotateY(0);-webkit-transform:perspective(120px) rotateX(-180.1deg) rotateY(0)}100%{transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg);-webkit-transform:perspective(120px) rotateX(-180deg) rotateY(-179.9deg)}}.header{background-color:#fff;border:none;z-index:999}.navbar-default .navbar-nav>li>a{color:#000}.navbar-default .navbar-nav>li>a:hover{color:#ec971f}.navbar-default .navbar-nav>li>a:focus{color:#ec971f}.navbar-default .navbar-right{height:50px;margin-top:5px}.navbar-default .navbar-header{height:60px}.navbar-default .MyWhiteClass{background-color:#fff}.navbar-default .navbar-toggle .icon-bar{background-color:#000}.body{background-color:#f5f5f5}hr{margin-top:0;margin-bottom:1%}.my-hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.ChkBoxcontainer{display:block;position:relative;padding-left:35px;margin-bottom:12px;cursor:pointer;font-size:12px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.ChkBoxcontainer input{position:absolute;opacity:0;cursor:pointer}.checkmark{position:absolute;top:0;left:0;height:25px;width:25px;background-color:#fff;border:solid #000}.ChkBoxcontainer:hover input~.checkmark{background-color:#ccc}.ChkBoxcontainer input:checked~.checkmark{background-color:#fff}.checkmark:after{content:"";position:absolute;display:none}.ChkBoxcontainer input:checked~.checkmark:after{display:block}.ChkBoxcontainer .checkmark:after{left:8px;top:4px;width:5px;height:11px;border:solid #000;border-width:0 3px 3px 0;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.MyCheckBox{font-size:small}.myTopBtn{display:none;position:fixed;bottom:20px;right:30px;z-index:99;font-size:18px;border:none;outline:0;cursor:pointer;padding:15px;border-radius:4px}.RepeaterBorder{border-radius:1px;padding:10px;background-color:#fff}.RepeaterBackGround{background-color:#f5f5f5;padding-left:0}.M-Header-btn{margin-top:-20px;padding-left:0;padding-right:0;text-align:center}.M-Header-btn .M-btn{margin-top:5px;margin-bottom:-10px;padding-left:0;padding-right:0}.M-Header-btn .M-btn>input{border-radius:0}.Summary-reservations .Details{border-color:#e9f0fa;border:1px solid #cce1ff;margin:-10px -10px -11px;padding:10px 10px 8px}.Summary-reservations .hr{margin-top:20px;margin-bottom:20px;border:0}.Summary-reservations .Info{padding-top:5px}.Summary-reservations .Details>h4{background-color:#e9f0fa;border-color:#e9f0fa;border:1px solid #cce1ff;margin:-10px -10px -11px;padding:10px 10px 8px}.Summary-reservations .AskaQuestion{border-color:#e9f0fa;border:1px solid #cce1ff;margin:-10px -10px -11px;padding:10px 10px 8px}.Summary-reservations .AskaQuestion>h4{background-color:#e9f0fa;border-color:#e9f0fa;border:1px solid #cce1ff;margin:-10px -10px -11px;padding:10px 10px 8px}@media print{.Summary-reservations{background-color:coral!important}.Summary-reservations .Details{border-color:#e9f0fa;border:1px solid #cce1ff;margin:-10px -10px -11px;padding:10px 10px 8px}.Summary-reservations .hr{margin-top:20px;margin-bottom:20px;border:0}.Summary-reservations .Info{padding-top:5px}.Summary-reservations .Details>h4{background-color:#e9f0fa;border-color:#e9f0fa;border:1px solid #cce1ff;margin:-10px -10px -11px;padding:10px 10px 8px}.Summary-reservations .AskaQuestion{border-color:#e9f0fa;border:1px solid #cce1ff;margin:-10px -10px -11px;padding:10px 10px 8px}.Summary-reservations .AskaQuestion>h4{background-color:#e9f0fa;border-color:#e9f0fa;border:1px solid #cce1ff;margin:-10px -10px -11px;padding:10px 10px 8px}}.HotelRepeaterBorder{border: 1px solid #c6c6c6;margin-bottom:25px;box-shadow:0 0 5px #5bbaff}.modal-dialog{position:absolute;top:50%!important;transform:translate(0,-50%)!important;-ms-transform:translate(0,-50%)!important;-webkit-transform:translate(0,-50%)!important;margin:auto 5%;width:90%;height:80%}.myRoomModel{color:#000}.myRoomModel .title{margin-top:5px}.myRoomModel .Room{margin-top:-5px;margin-bottom:-10px}.myRoomModel .Adult{margin-top:-5px;margin-bottom:-5px}.myRoomModel .Children{margin-top:-5px;margin-bottom:-5px}.myRoomModel .Number{text-align:center;padding-left:0}.myRoomModel .Decres{border-radius:10px 0 0 10px;font-size:20px}.myRoomModel .Incres{border-radius:0 10px 10px 0;font-size:large}.popover{width:550px;max-height:none;max-width:none}.checked{color:orange}.review-score-box{background:#003580;color:#fff;display:-webkit-box;display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center;font-size:16px;font-weight:500;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;vertical-align:baseline;border-radius:6px 6px 6px 0;height:32px;width:32px}.reviewsum{padding-left:0}.comp-logo{width:100%;height:auto;min-height:100px;max-height:100px;background-color:#efefef;margin-top:15px;overflow-y:hidden}.up-btn:hover{background-color:#0b4d73}.up-btn{width:100%;height:33px;background:#0b669a;color:#fff;border:none;border-radius:0 0 10px 10px;transition:all ease 1s;display:inline-block;vertical-align:middle;line-height:33px;text-align:center;cursor:pointer}.comp-logo{background-size:cover;background-position:center}.footer{position:fixed;left:0;bottom:0;width:100%;height:5%;color:#fff;background-color:#ffebde;text-align:left}.Border{padding:5px;border:2px solid #f0f8ff;margin-top:25px}.rightSide{text-align:right}.leftSide{text-align:left}.RoomAmentitesbox{height:35px;background-color:#f0f8ff;padding:8px}.RoomsController{background-color:#f0f8ff;padding-top:10px;text-align:left}.ClearFloat{clear:both}.progress{height:10px;padding:0}.ReviewRepeater{background-color:#f5f5f5;margin-bottom:30px;padding-top:30px}.text-block{position:absolute;bottom:20px;right:20px;background-color:#000;color:#fff;padding-left:20px;padding-right:20px}.textLab{display:block;width:100px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.BGimage{background-image:url(../imge/RiyadhBG.jpg);background-repeat:no-repeat;background-size:inherit;position:relative}.banner{height:250px;background-color:transparent;padding:0}
+.banner{height:100px;background-color:transparent;padding:0}.BGimage{background-image:url(../imge/RiyadhBG.jpg);background-repeat:no-repeat;background-size:cover;position:relative;}.page-content{padding-left:0;text-align:left;padding-top:20px}.Img{height:250px;width:100%}.ImgRepeater{padding:10px;height:220px;width:-webkit-fill-available}.Repeater-Box{padding-bottom:40px}.WeeklyOffersRepeater-Box{padding-bottom:20px}.RepeaterBody{background-color:#ffebde;height:350px}.WeeklyOffersRepeaterBody{background-color:#fff;height:300px;box-sizing:border-box;box-shadow:0 0 1px rgba(0,0,0,.2)}.Repeater-heading{height:240px;background-color:#ffebde}.WeeklyOffersRepeater-heading{height:240px;background-color:#fff}.Repeater-body{height:80px;padding-top:5px;background-color:#ffebde}.WeeklyOffersRepeater-body{height:40px;padding-top:5px;background-color:#fff}.Repeater-footer{height:50px;padding:10px;background-color:#daa520}.RepeaterBody a{text-decoration:none!important;color:#d2691e}.RepeaterBody a:hover{color:#dc143c}@media (min-width:768px){.navbar-left{float:left!important}.panel-info>.panel-heading{color:#000;background-color:#ffebde;border-color:#daa520}}.panel-info>.panel-heading{color:#000;background-color:#ffebde;border-color:#daa520}.navbar-right{float:right!important;margin-right:0}.form-control{border:1px solid #daa520}.MyBorder{border:1px solid #daa520}.serachboxtxt{border-right:0;border-radius:0}.serachboxbtn{border-left:0;border-radius:0;width:10%}.navbar-inverse .navbar-toggle .icon-bar{background-color:#337ab7}.navbar-inverse .navbar-toggle{border-color:#337ab7}.navbar-inverse .navbar-nav>li>a{padding-top:25px;color:#743a00;padding-right:0;font-size:15px}.navbar-inverse .navbar-nav>li>a:hover{color:#ff901a}.FontMedi{font-size:20px;color:#ff8c00}.sidenav{height:100%;position:fixed;z-index:9999;top:0;left:0;background-color:#f5f5f5;overflow-x:hidden;transition:.5s;padding-top:40px;width:0}.sidenav ul{padding:0;margin:0;list-style:none;background:#fff;height:100%;overflow:auto;width:270px}.sidenav li{display:list-item;padding:12px 15px 15px 25px;line-height:1.1;border-bottom:1px solid #d8d8d8;cursor:pointer}.arrow_right{width:10px;float:right}.Logo_right{width:200px;height:50px}.Logo_right2{width:150px;height:60px}.sidena a{padding:5px 8px 15px 8px;text-decoration:none;text-align:left;font-size:15px;color:#000;display:block;transition:.3s;float:left;margin-top:0}.sidenav a:hover{color:#ff6a00}.sidenav .closebtn{position:absolute;top:0;right:25px;font-size:36px;margin-left:50px}.Headerbutton{float:none;margin-top:15px;margin-left:15px}@media screen and (max-height:450px){.sidenav{padding-top:15px}.sidenav a{font-size:18px}}.SearchD{padding-right:0;padding-left:0;padding-top:15px}.MenuD{padding-right:0;padding-left:0;padding-top:0}.Mya{margin-right:5px;font-size:18px;text-transform:capitalize;color:#000;font-weight:500;text-decoration:none;outline:0;box-shadow:none;line-height:1.1;font-family:Roboto,DroidArabicKufi}.HeaderMenuD{float:right;padding-top:25px;margin-right:15px;font-size:18px;text-transform:capitalize;color:#363636;font-weight:500;text-decoration:none;outline:0;box-shadow:none;line-height:1.1;font-family:Roboto,DroidArabicKufi;height:auto;background-color:transparent}.box{border-radius:10px;background:#c2c6be;padding:20px;float:left;width:30px;height:30px;margin-right:12px;vertical-align:bottom}.box span{top:50%;left:50%;transform:translate(-50%,-50%);vertical-align:bottom}.Links{margin-right:10px}.LiLinks{padding-bottom:10px;vertical-align:bottom}.MenuMLi{background-color:#f4a460}.MenuMLi a{color:#000}.MenuMLi a:hover{color:#f5f5f5}.CategoryD{background-color:#daa520;height:55px;color:#f0f8ff}@media (max-width:1200px){.CategoryD{background-color:transparent}}.menuTrigger{text-transform:uppercase;padding:0 15px;height:60px;font-size:1.16666rem;-webkit-letter-spacing:.2px;-moz-letter-spacing:.2px;-ms-letter-spacing:.2px;letter-spacing:.2px;font-weight:700;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:transparent;cursor:pointer;font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;color:inherit;border:0;box-sizing:border-box;border-radius:0;font-size:13px}.menuTrigger:hover{color:red}.menuTrigger:active{color:red;border:1px}.BtnHeaderMenuForShopping{background-color:transparent;border:0;padding:0}.txtTitle{background-color:transparent;border:0;box-shadow:0 0 0 transparent;cursor:context-menu;resize:none;color:#000}.txtTitle:focus{box-shadow:0 0 0 transparent}.imgProduct{padding:10px;height:400px;max-width:100%}.about_content{max-width:1110px;min-width:620px;margin:0 auto;clear:both;padding:0 50px 20px 50px}.static_content{padding:8px 16px}.static_content-col25{float:left;width:28%;margin-bottom:30px}.static_content-col75{float:left;width:71%;padding-left:1%;margin-bottom:30px}.flexible_layout_content{background-image:url(https://www.solidbackgrounds.com/images/1920x1080/1920x1080-oxford-blue-solid-color-background.jpg);max-width:1300px;min-width:50px;margin:0 auto;clear:both;padding:50px 50px 20px 50px}.static_content{padding:8px 16px}.static_content-section{color:#000;margin:50px 0}.footer-top-menu{background-color:#042147;font-size:13px;padding:0}.footer-top-partners{border-bottom:1px solid #537bb4}.footerconstraint-inner{max-width:1094px;min-width:620px;margin:0 auto;padding:0 8px}.footer-top-partner-text{color:#fff;line-height:2;margin:0;padding:15px 10px;text-align:center}.footer-top-partners .footer-top-button{border:1px solid #fff;border-radius:3px;color:#fff;display:inline-block;font-weight:400;padding:0 15px;text-decoration:none}.footer-top-partner-buttons a{margin:0 10px}.footerconstraint-inner{max-width:1094px;min-width:620px;margin:0 auto;padding:0 8px}.footerconstraint-inner{max-width:1094px;min-width:620px;margin:0 auto;padding:0 8px}.footer-navigation-links-wrapper{padding:16px 0}.footer-navigation-links{width:100%;float:left;display:inline-block;vertical-align:middle}.footer-navigation-links-wrapper{padding:16px 0}footer-offices-copy{border-top:1px solid #e9f0fa;border-bottom:1px solid #e9f0fa;padding:11px 8px 11px 8px;margin-bottom:-8px;font-size:12px}.extranet_link_container{border-top:1px solid #fff;border-bottom:1px solid #fff;margin-top:3em;padding:0;text-align:center}.footerconstraint .footercopyright{font-size:80%;border-top:1px solid #e9f0fa;margin-top:1em}.footer-wrapper .whitebar{border-top:none!important}.footer__priceline{width:100%;min-height:90px;color:#838383;text-align:center;font-size:12px;padding-top:0}.footer__priceline__title{margin:0}.footer__priceline__list{padding:10px 0 0}.footer-top-partner-text{color:#fff;line-height:2;margin:0;padding:15px 10px;text-align:center}.footer-top-links-list{margin:0;padding:0;text-align:center}.footer-top-link{float:left;list-style-type:none;border-right:1px solid #003580}.footer-navigation-links-column{margin:0;width:20%;float:left;padding:0 10px 0 0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.footer-top-link input,.footer-top-link span{color:#fff;font-weight:700;text-decoration:underline;padding:15px 10px;font-size:13px;background:0;border:0;cursor:pointer;display:inline-block;line-height:1em;height:1em;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.footer-top-link a,.footer-top-link input,.footer-top-link span{color:#fff;font-weight:700;text-decoration:underline;padding:15px 10px;font-size:13px;background:0;border:0;cursor:pointer;display:inline-block;line-height:1em;height:1em;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.footer-offices-copy{border-top:1px solid #e9f0fa;border-bottom:1px solid #e9f0fa;padding:11px 8px 11px 8px;margin-bottom:-8px;font-size:12px}.extranet_link_container{border-top:1px solid #fff;border-bottom:1px solid #fff;margin-top:3em;padding:0;text-align:center}.footerconstraint .footercopyright{font-size:80%;border-top:1px solid #e9f0fa;margin-top:1em}footerconstraint .footercopyright .copyright_text{clear:left}.footerconstraint .footercopyright .copyright_text{padding:1em 0;float:left}.footer__priceline__list ul{display:inline-block}.footer__priceline__list li{list-style:none;padding:0 20px;display:inline-block;padding-bottom:0}.RatingBox{border-radius:50%;width:120px;height:120px;background:#f76161;border:2px solid #666;color:#000;font:16px Arial,sans-serif;min-height:10em;display:table-cell;vertical-align:middle}.fsslider{position:relative;min-width:150px;height:24px;display:inline-block;width:100%;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;color:#000}.fsslider{text-align:center;line-height:24px;font-size:11px;font-family:"Lucida Grande","Trebuchet MS",sans-serif}.fsslider>*{position:absolute;top:50%;cursor:pointer}.fsslider>.fsfull-value,.fsslider>.fssel-value{margin-top:-1px;height:2px;left:0;right:0}.fsslider>.fsfull-value{width:100%;background:#d8d8d8}.fsslider>.fscaret,.fsslider>.fssel-left,.fsslider>.fssel-right{background:#fff;box-shadow:1px 1px 3px rgba(0,0,0,.2);-moz-box-shadow:1px 1px 3px rgba(0,0,0,.2);-webkit-box-shadow:1px 1px 3px rgba(0,0,0,.2);height:100%;min-width:30px;top:0;padding-left:5px;padding-right:5px}.fsslider>.fssel-value{background:#2534e4;height:4px;margin-top:-2px;right:50%}.fsslider.fsdisabled{color:#c8c8c8}.fsslider.fsdisabled>.fssel-value{background:#c8c8c8}
+/*Loader*/
+.HotelSearchloader {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,0.9);
+    position: fixed;
+    z-index: 99999;
+}
+/* Spinner*/
+.HotelSearchspinner {
+    width: 200px;
+    height: 200px;
+    margin: 150px auto;
+}
+.BGHotelSearch {
+    /*background-image: url("../imge/BaqalaBG.jpg");*/
+    background-repeat: repeat;
+    background-color: whitesmoke;
+}
+@media (max-width: 768px) {
+    .BGHotelSearch {
+        /*background-image: url("../imge/BaqalaBG.jpg");*/
+        background-repeat: repeat;
+        background-color: whitesmoke;
+        height: -webkit-fill-available;
+    }
+}
+@media (max-width:768px) {
+    .BGimage {
+        background-image: url(../imge/RiyadhBG.jpg);
+        background-repeat: no-repeat;
+        background-size: inherit;
+        position: relative;
+    }
+}
+@media (max-width:320px) {
+    .BGimage {
+        background-image: url(../imge/RiyadhBG.jpg);
+        background-repeat: no-repeat;
+        background-size: inherit;
+        position: relative;
+    }
+}
+
+.FilterClass {
+    border: 1px solid #c6c6c6;
+    margin-bottom: 0px;
+    box-shadow: 0 0 5px #5bbaff;
+}
+
+.box {
+    background-color: #f0ad4e;
+    position: absolute;
+    left: -25px;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    top: 8px;
+    width: auto;
+    height: auto;
+    padding: 0px 10px;
+}
+
+.PopapBox {
+    background: #077812;
+    position: absolute;
+    left: -25px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    outline: 0;
+    top: 8px;
+    width: auto;
+    height: auto;
+    padding: 8px 16px;
+    border-radius: 3px 6px 6px 0;
+    -webkit-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.4);
+    box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.4);
+}
+
+    .PopapBox:before {
+        border: 5px solid #077812;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 0;
+        height: 0;
+        z-index: -1;
+    }
+
+.mainimg {
+    height: 200px;
+    width: 250px;
+}
+
+@media (max-width: 768px) {
+    .mainimg {
+        height: 190px;
+        width: 100%;
+    }
+
+    .PopapBox {
+        background: #077812;
+        position: absolute;
+        left: -25px;
+        color: #fff;
+        cursor: pointer;
+        text-decoration: none;
+        outline: 0;
+        top: 8px;
+        width: auto;
+        height: auto;
+        padding: 8px 8px;
+        border-radius: 3px 6px 6px 0;
+        -webkit-box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.4);
+        box-shadow: 1px 2px 2px 0 rgba(0,0,0,0.4);
+    }
+}
+
+.HotelName {
+    font-family: "Geeza Pro","Tahoma",BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif !important;
+    font-size: 20px;
+    color: #0077cc;
+}
+
+.Description {
+    background-color: transparent;
+    border: 0;
+    box-shadow: 0px 0px 0px transparent;
+    cursor: context-menu;
+    resize: none;
+    color: black;
+    overflow: hidden;
+}
+
+.SoldOut {
+    font-size: larger;
+    font-weight: bold;
+    color: red;
+}
+
+.UnitDetails {
+    font-size: 14px;
+}
+
+.Nights {
+    font-size: 14px;
+}
+
+.CancelStatement {
+    font-size: 14px;
+    color: #0ab21b;
+}
+
+.Taxs {
+    font-size: 14px;
+}
+
+.Price {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: red;
+}
+
+.PriceAfterDiscount {
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    color: green;
+}
+
+.UnitName {
+    /*font-size: 16px;*/
+    /* line-height: 28px;*/
+    font-weight: bold;
+    /*  color: #383838;*/
+}
+
+.HotelRepeaterBorder {
+    padding-top: 5px;
+}
+
+.PTop {
+    padding-top: 5px;
+}
+
+.boxPriceState {
+    background-color: #f0ad4e;
+    /*position: absolute;*/
+    left: 5px;
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    top: 0px;
+    width: auto;
+    height: auto;
+    padding: 0px 3px;
+}
+
+.Nights {
+    padding-left: 0;
+}
+
+.PriceAfterDiscount {
+    padding-left: 0;
+    padding-left: 0;
+}
+
+
+
+/******/
+
+.PLeft {
+    padding-left: 0;
+}
+
+.PLeft5 {
+    padding-left: 0;
+}
+
+.PRight {
+    padding-right: 0;
+}
+
+.PAll {
+    padding: 0;
+}
+
+@media only screen and (max-width: 1024px) and (max-height: 768px) {
+    .HotelName {
+        font-size: 12px;
+    }
+
+    .UnitName {
+        font-size: 11px;
+    }
+
+    .MedaNormalFontSize {
+        font-size: 10px;
+    }
+
+    .MedaBigFontSize {
+        font-size: 14px;
+    }
+
+    .MedaPriceFontSize {
+        font-size: 8px;
+    }
+
+    .Nights {
+        padding-left: 2px;
+        font-size: 8px;
+    }
+
+    .review-score-box {
+        background: #003580;
+        color: #fff;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 300;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        vertical-align: baseline;
+        border-radius: 6px 6px 6px 0;
+        height: 20px;
+        width: 35px;
+    }
+
+    .Currentcy {
+        padding: 5px;
+    }
+
+    .PTop {
+        padding-top: 3px;
+    }
+}
+
+.Footer{
+    padding-left:0px;
+    padding-right:0px;
+}
